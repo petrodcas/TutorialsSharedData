@@ -1,0 +1,34 @@
+[
+    {
+        "primaryEmail": "string",
+        "fullname": {
+            "surname": "string",
+            "name": "string"
+        },
+        "externalIDs": [
+            {
+                "value": "string",
+                "type": "organization"
+            }
+        ],
+        "phones": [
+            {
+                "value": "string",
+                "isPrimaryPhone": true
+            }
+        ],
+        "organizations": [
+            {
+                "employeeID": "string",
+                "employeeTitle": "string",
+                "department": null,
+                "customTypes": [
+                    {
+                        "value": "string",
+                        "type": "string"
+                    }
+                ]
+            }
+        ]  
+    }
+]
